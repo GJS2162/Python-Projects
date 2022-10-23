@@ -11,6 +11,7 @@ def is_leap(year):
     return 0
 
 def days_in_month(year , month):
+   """Takes the year and month as input and displays number of days."""
    month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]  
    value = is_leap(year)
    if value == 0 and month == 2:
