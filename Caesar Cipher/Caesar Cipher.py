@@ -36,7 +36,7 @@ def game():
     #Hint: Try creating a while loop that continues to execute the program if the user types 'yes'. 
     
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-    text = input("Type your message:\n").lower()
+    text = input("Type your message : \n").lower()
     shift = int(input("Type the shift number:\n"))
     if shift > 25:
       shift = shift % 25
